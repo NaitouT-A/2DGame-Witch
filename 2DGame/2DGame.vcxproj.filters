@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Tasks">
+      <UniqueIdentifier>{75800cc2-72b2-4ee7-8286-8363b28b5e41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DxMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Title.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Game.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Player.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_GameBG.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Board.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="BChara.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGE.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Enemy.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Circle.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_EffectCreate.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_EffectBomb.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_EAttack.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_PlayerHp.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_GameOver.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_DamagedOverray.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Enemy2.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Game2.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_EventEngine.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Ev_Message.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Ev_Image.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_GameClear.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Ev_FadeInOut.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_EnemyHp.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_Tutorial.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_TutorialEnemy.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_TutorialTask.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_TutorialCircle.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_TutorialPlayer.cpp">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Task_Title.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Game.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Player.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="BChara.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Dxmain.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_GameBG.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Board.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGE.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Enemy.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Circle.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_EffectCreate.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_EffectBomb.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_EAttack.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_PlayerHp.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_GameOver.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_DamagedOverray.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Enemy2.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Game2.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_EventEngine.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Ev_Message.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Ev_Image.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_GameClear.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Ev_FadeInOut.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_EnemyHp.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_Tutorial.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_TutorialEnemy.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_TutorialTask.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_TutorialCircle.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_TutorialPlayer.h">
+      <Filter>ソース ファイル\Tasks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="2DGame.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
